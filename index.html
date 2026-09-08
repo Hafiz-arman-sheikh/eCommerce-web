@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA | Luxury Timepieces</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="logo">AURA<span></span></div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="#">Men's Watches</a>
+            <a href="#">Women's Watches</a>
+            <a href="#">Collections</a>
+        </nav>
+        <div class="nav-icons">
+            <a href="#" class="icon-btn" id="wishlist-btn">
+                <i class="fa-regular fa-heart"></i>
+                <span class="badge" id="wishlist-count">0</span>
+            </a>
+            <a href="#" class="icon-btn" id="cart-btn">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="badge" id="cart-count">0</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Elegance In Every Second</h1>
+            <p>Discover our exclusive luxury collection crafted for perfection.</p>
+            <a href="#products" class="btn-primary">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="products-section" id="products">
+        <h2 class="section-title">Featured Timepieces</h2>
+        
+        <!-- Is container ke andar JavaScript dynamic cards automatically render karega -->
+        <div class="product-grid"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 AURA Luxury Watches. All Rights Reserved.</p>
+    </footer>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
