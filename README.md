@@ -1,12 +1,21 @@
-# E-commerce Web Project
+# AURA — Luxury Timepieces
 
-A web project repository for practising e-commerce website layouts and interactions.
+A storefront concept for a luxury watch brand, built as a front-end web development project.
+
+## Features
+- Responsive navigation and page layout
+- Watch product presentation
+- Product-focused storefront sections
+- Font Awesome icons
 
 ## Technologies
-Review the source files in this repository to confirm the exact technologies and current functionality.
+- HTML5
+- CSS3
+- JavaScript (check the project scripts for implemented interactions)
+- Font Awesome CDN
 
 ## Run locally
-If the project is a static website, open its main `index.html` file in a browser. If it uses JavaScript modules or API calls, run it through a local development server and follow any configuration in the source.
+Clone the repository and open `index.html` in a browser. If scripts use modules or browser requests, run it with a local development server.
 
-## Repository
+## Source code
 https://github.com/Hafiz-arman-sheikh/eCommerce-web
